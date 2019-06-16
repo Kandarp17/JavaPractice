@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<form action="./RegistationServlet" method="post">
+		<table>
+			<tr>
+				<td>  Employee Number</td>
+				<td><input type="number" name="empNumber" required="required" pattern="[0-9]{2,4}"/></td>
+			</tr>
+			<tr>
+				<td>  Employee Name</td>
+				<td><input type="text" name="empName" required="required" pattern="[A-Za-z]"/></td>
+			</tr>
+			<tr>
+				<td>  Employee Salary</td>
+				<td><input type="number" name="empSalary" required="required" /></td>
+			</tr>
+			<tr>
+				<td>  Department Number</td>
+				<td><input type="number" name="DepartmentNumber" required="required" /></td>
+			</tr>
+			<tr>
+				<td> <input type="submit" value="Register"/></td>
+				<td><input type="reset" value="clear"/></td>
+			</tr>
+		</table>
+	</form>
+</body>
+</html>

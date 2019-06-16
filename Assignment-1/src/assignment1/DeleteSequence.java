@@ -6,7 +6,7 @@ public class DeleteSequence {
 		str.delete(start, end+1);
 		System.out.println(str);
 	}
-	
+	//dfafdfidysiuytiuagsigda
 	public static void main(String[] args) {
 		deleteSequence("kandarp",2,5);
 	}
